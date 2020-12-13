@@ -26,5 +26,5 @@ jobs:
     - name: go python script
       run: |
         echo "begin to run python script"
-        python demo.py
+        # python demo.py
         echo "Script Done."
