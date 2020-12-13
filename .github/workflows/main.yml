@@ -26,5 +26,6 @@ jobs:
     - name: go python script
       run: |
         echo "begin to run python script"
-        # python demo.py
+        cookie='${{ secrets.COOKIE }}'
+        python demo.py $cookie
         echo "Script Done."
